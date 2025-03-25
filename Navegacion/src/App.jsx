@@ -7,6 +7,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router'
 import List from './pages/List'
 import Calculadora from './pages/Calculadora'
 import Componentes from './pages/Componentes'
+import AcercaDeMi from './pages/AcercaDeMi'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/Calculadora" element={<Calculadora />} />
         <Route path="/List" element={<List />} />
         <Route path="/Componentes" element={<Componentes />} />
+        <Route path="/AcercaDeMi" element={<AcercaDeMi />} />
       </Routes>
     </Router>
     </>
